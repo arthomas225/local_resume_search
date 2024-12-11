@@ -1,0 +1,13 @@
+import PySimpleGUI as sg
+import os
+import PyPDF2
+import docx
+import re
+import nltk
+import threading
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import sent_tokenize
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+import logging
