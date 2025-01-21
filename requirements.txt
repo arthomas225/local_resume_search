@@ -1,4 +1,4 @@
-import PySimpleGUI as sg
+import PySimpleGUI
 import os
 import PyPDF2
 import docx
