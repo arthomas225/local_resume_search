@@ -1,3 +1,9 @@
+try:
+    import PySimpleGUI as sg
+    print("PySimpleGUI imported successfully!")
+except Exception as e:
+    print(f"Error importing PySimpleGUI: {e}")
+
 import PySimpleGUI
 import os
 import PyPDF2
