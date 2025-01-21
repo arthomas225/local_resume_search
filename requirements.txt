@@ -5,9 +5,9 @@ docx
 re
 nltk
 threading
-nltk.corpus import stopwords
-nltk.stem import WordNetLemmatizer
-nltk.tokenize import sent_tokenize
-sentence_transformers import SentenceTransformer
-sklearn.metrics.pairwise import cosine_similarity
+nltk.corpus 
+nltk.stem 
+nltk.tokenize
+sentence_transformers 
+sklearn.metrics.pairwise
 logging
